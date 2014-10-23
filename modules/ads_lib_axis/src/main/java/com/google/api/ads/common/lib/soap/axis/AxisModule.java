@@ -64,6 +64,7 @@ public class AxisModule extends AbstractModule {
     
     try {
       bind(Configuration.class).annotatedWith(Names.named("axisResources")).toInstance(
+          (Configuration)
           configurationHelper.fromFile(Version.class
               .getResource("/org/apache/axis/i18n/resource.properties")));
     } catch (ConfigurationLoadException e) {
