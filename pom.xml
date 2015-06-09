@@ -30,6 +30,15 @@
     Parent POM of the Java client libraries for the Google ads APIs.
   </description>
 
+  <distributionManagement>
+    <repository>
+      <id>criteo.thirdparty</id>
+      <name>Criteo 3rd Party</name>
+      <url>https://nexus.criteois.lan/content/repositories/criteo.thirdparty</url>
+    </repository>
+  </distributionManagement>
+
+
   <url>https://github.com/googleads/googleads-java-lib/</url>
   <issueManagement>
     <system>github.com</system>
