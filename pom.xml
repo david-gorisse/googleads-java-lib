@@ -221,7 +221,6 @@
     <module>modules/ads_lib_axis</module>
     <module>modules/adwords_appengine</module>
     <module>modules/adwords_axis</module>
-    <module>modules/dfa_axis</module>
    <!-- <module>modules/dfa_axis</module>
     <module>modules/dfp_appengine</module>
     <module>modules/dfp_axis</module>
